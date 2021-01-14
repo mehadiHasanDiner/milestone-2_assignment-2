@@ -6,3 +6,33 @@
     background-color: rgb(241 241 241);
 
 }
+@media (max-width: 720px){
+    .facility-cart{
+        float: left;
+        width: 100%;
+    }
+    .mobile-app{
+        float: left;
+        width: 100%;
+    }
+    .row{
+        display: flex;
+        flex-direction:column-reverse;
+    } 
+}
+
+@media (max-width: 720px){
+    .facility-img{
+        width: 100%;
+        text-align: center;
+    }
+    .facility-text{
+        width: 100%;
+        text-align: center;
+    }
+    .facility {
+        display: flex;
+        flex-direction:column;
+    }
+    
+}
