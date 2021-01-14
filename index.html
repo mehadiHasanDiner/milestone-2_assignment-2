@@ -4,19 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
     <link rel="manifest" href="favicon_io/site.webmanifest">
+    <!-- favicon -->
 
-    <title>Navbar</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+    <title>Penguine Fashion</title>
     <!-- bootstrap4 cdn -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <style>
+        .card-border {
+            border: none;
+            border-radius: 1.25rem;
+            box-shadow: 0 0.125rem .95rem rgba(0,0,0,0.095)!important;
+    }
+            
+        .btncolor{
+            background-color: #9db53b;
+            border-color:  #b2cf3e;
+            color: white;            
+        }
+    </style>
+
+
 </head>
 <body>
- <section>
+ <section style="background-color: rgb(255 251 240);">
     <div class="container">
-        <header >
+        <header>
             <nav class="navbar navbar-expand-sm bg-primary navbar-dark">                
                 <a href="#" class="navbar-brand">
                     <img src="images/Logo, Icon/logo.png" alt="logo" style="width: 200px;">
@@ -33,20 +55,14 @@
                     </ul>
                 </div>
             </nav>
-        </header>    
-    </div>
-
-    <div class="container">
-
-
-        <div class="container">
+          
             <div class="row g-5">
               <div class="col-md-6 d-flex align-items-center justify-content-around">
                 <div class="">                    
                     <h1>BE THE PENGUINES </h1>
                     <h1>OF WINTER </h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, blanditiis!</p>
-                    <button class="btn btn-warning">BUY NOW</button>
+                    <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
                 </div>
               </div>
               <div class="col-md-6 d-flex align-items-center justify-content-around">
@@ -56,21 +72,153 @@
               </div>
             </div>
           </div>
+        </header>  
+    </section>
 
-
-        
-        <!-- <div class="row">
-          <div class="col-6 col-sm-6 d-flex ">          
-          </div>
-            <div class="col-6 col-sm-6 d-flex align-items-center">
-                <div class="d-flex justify-content-center">
-                    
+          <section id="#" class="container mt-5">
+            <h1 class="">WOMEN JACKET</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col p-4">
+                  <div class="card-border card h-100">
+                      <div class="m-3 jacket-border">
+                    <img src="images/Image/SeekPng 1.png" class="card-img-top" alt="...">
+                      </div>
+                      <div class="px-3">
+                        <h4 class="card-title">Yellow Coat Jacket</h4>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  
+                      </div>
+                    <div class="card-body d-flex justify-content-between">
+                        <div>
+                            <h3 class="text-warning">$234</h3>
+                        </div>
+                        <div>
+                            <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div> -->
-    </div>
-</section>
+                <div class="col p-4">
+                    <div class="card-border card h-100">
+                        <div class="m-3 jacket-border">
+                      <img src="images/Image/SeekPng 2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="px-3">
+                          <h4 class="card-title">Ladiex Jacket</h4>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  
+                        </div>
+                        <div class="card-body d-flex justify-content-between">
+                            <div>
+                                <h3 class="text-warning">$234</h3>
+                            </div>
+                            <div>
+                                <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-4">
+                        <div class="card-border card h-100">
+                            <div class="m-3 jacket-border">
+                          <img src="images/Image/SeekPng 3.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="px-3">
+                              <h4 class="card-title">Woman Leather Jacket</h4>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  
+                            </div>
+                            <div class="card-body d-flex justify-content-between">
+                                <div>
+                                    <h3 class="text-warning">$234</h3>
+                                </div>
+                                <div>
+                                    <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+              </section>
 
+              <section id="#" class="container mt-5">
+                <h1 class="">MAN JACKET</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col p-4">
+                      <div class="card-border card h-100">
+                          <div class="m-3 jacket-border">
+                        <img src="images/Image/image 4.png" class="card-img-top" alt="...">
+                          </div>
+                          <div class="px-3">
+                            <h4 class="card-title">Snowboard Jacket Mens</h4>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  
+                          </div>
+                        <div class="card-body d-flex justify-content-between">
+                            <div>
+                                <h3 class="text-warning">$234</h3>
+                            </div>
+                            <div>
+                                <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col p-4">
+                        <div class="card-border card h-100">
+                            <div class="m-3 jacket-border">
+                          <img src="images/Image/image 5.png" class="card-img-top" alt="...">
+                            </div>
+                            <div class="px-3">
+                              <h4 class="card-title">Man Leather Jackets</h4>
+                              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  
+                            </div>
+                            <div class="card-body d-flex justify-content-between">
+                                <div>
+                                    <h3 class="text-warning">$234</h3>
+                                </div>
+                                <div>
+                                    <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col p-4">
+                            <div class="card-border card h-100">
+                                <div class="m-3 jacket-border">
+                              <img src="images/Image/image 6.png" class="card-img-top" alt="...">
+                                </div>
+                                <div class="px-3">
+                                  <h4 class="card-title">Man Casual Jackets</h4>
+                                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  
+                                </div>
+                                <div class="card-body d-flex justify-content-between">
+                                    <div>
+                                        <h3 class="text-warning">$234</h3>
+                                    </div>
+                                    <div>
+                                        <button class="btncolor btn btn-lg"> <i class="fas fa-shopping-cart"></i>  BUY NOW</button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                  </section>
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm-7">
+                    <div>Level 1: .col-sm-3</div>
+                    <div>Level 1: .col-sm-3</div>
+                    <div>Level 1: .col-sm-3</div>
+                  </div>
+                  <div class="col-sm-5">
+                    <div class="row">
+                      <div class="col-8 col-sm-6">
+                        Level 2: .col-8 .col-sm-6
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
 
 
 
