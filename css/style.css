@@ -1,4 +1,16 @@
 
+.title-heading img{
+    position: relative;
+    bottom: 20px;
+}
+
+.title-heading h1 {
+    font-size: 50px;
+}
+.bgcolor {
+    background-color: rgb(255 251 240);
+    color: black;
+}
 
 .jacket-border  {
     border: none;
@@ -6,7 +18,7 @@
     background-color: rgb(241 241 241);
 
 }
-@media (max-width: 720px){
+@media (max-width: 576px){
     .facility-cart{
         float: left;
         width: 100%;
@@ -15,13 +27,13 @@
         float: left;
         width: 100%;
     }
-    .row{
+    .reverse{
         display: flex;
         flex-direction:column-reverse;
     } 
 }
 
-@media (max-width: 720px){
+@media (max-width: 576px){
     .facility-img{
         width: 100%;
         text-align: center;
@@ -36,3 +48,32 @@
     }
     
 }
+
+@media (max-width: 576px){
+    h2{
+        text-align: center;
+    }
+    
+}
+
+/* Adding Bonus content */
+.btn-grad {background-image: linear-gradient(to right, #FF8008 0%, #FFC837  51%, #FF8008  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 30px 60px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-size: 24px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
